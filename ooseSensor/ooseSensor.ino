@@ -16,7 +16,7 @@ const unsigned long int feed_41207 = 41207; // This is the feed "light-sensor"
 unsigned long timeRef;
 
 int val = 0;
-int tempVal = 0;
+float tempVal = 0;
 char buffer[30];
 
 #define ONE_WIRE_BUS 5
